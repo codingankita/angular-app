@@ -1,0 +1,26 @@
+<section class="hero">
+    <div class="content" [@routeAnimations]="prepareRoute(outlet)"> 
+        <div class="text">
+            <h1 class="font-class">Welcome!</h1>
+            <div class="example-ripple-container mat-elevation-z4"
+                matRipple>
+                <h1 class="rippletext">
+                    <a routerLink="/services">Explore our Services</a>
+                </h1>
+            </div>
+            <div class="example-ripple-container mat-elevation-z4"
+                matRipple>
+                <h1 class="rippletext">Clients</h1>
+            </div>
+            <div class="example-ripple-container mat-elevation-z4"
+                matRipple>
+                <h1 class="rippletext">Start our journey</h1>
+            </div>
+            <div class="example-ripple-container mat-elevation-z4"
+                matRipple>
+                <h1 class="rippletext">We are waiting here!</h1>
+            </div>
+        </div>
+    </div>
+</section>
+<router-outlet #outlet="outlet"></router-outlet>

@@ -1,0 +1,12 @@
+header-class{
+    background-color: #673ab7;
+}
+.button-space{
+    margin: 5px;
+    background-color: black;
+}
+.span-space{
+   /* align-items: right;
+   align-self: right; */
+   float:right;
+}
